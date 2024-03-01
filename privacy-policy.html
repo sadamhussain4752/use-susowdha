@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USR SUSOWDHA </title>
+    <meta name="title" content="Provident - 2/3/3.5/4 BHK Homes">
+
+    <link rel="preload" as="image" href="assets/images/logo.svg">
+    <link rel="preload" as="image" href="assets\images\bannerimage.jpg">
+    <!-- <link rel="preload" as="image" href="assets\images\mbanner.jpg" media="screen and (max-width:768px)"> -->
+    <!-- media="screen and (min-width:768px)" -->
+    <!-- CSS only -->
+    <link rel="dns-preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css"
+        as="style">
+
+
+    <!-- icons cdn -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+    <style>
+        .logo-w {
+            width: 50% !important;
+        }
+
+        .logo {
+            width: 45%;
+        }
+
+
+
+        .grey {
+            background-color: gainsboro;
+        }
+
+        .nav-item a:hover {
+            color: #1e417d !important;
+        }
+
+        .cmco {
+            color: #1e417d;
+        }
+
+        .cmcob {
+            background-color: #1e417d;
+        }
+
+        .carousel-indicators [data-bs-target].active {
+            opacity: 1;
+            background-color: #1e417d
+        }
+
+        .carousel-indicators [data-bs-target] {
+            background-color: #fff;
+            opacity: 1
+        }
+
+        #header-form {
+            padding-top: 5%;
+        }
+
+        .row>* {
+            padding-left: 0% !important;
+            padding-right: 0% !important;
+        }
+
+        .ul-sec {
+            background-color: #1e417d;
+            color: white;
+            border: 4px solid white;
+            border-style: dotted;
+            padding: 2%;
+        }
+
+        .g-img {
+            height: 150px !important;
+            object-fit: cover;
+        }
+
+        .g-img1 {
+            width: 100%;
+
+            object-fit: cover;
+        }
+
+        .ame-img {
+            width: 50% !important;
+
+        }
+
+        .border {
+            border: 1.5px solid grey;
+        }
+
+        /*table*/
+        tr {
+            padding: 10vh !important;
+        }
+
+        table {
+            margin-bottom: 0px !important;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid white;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            background-color: #96D4D4;
+        }
+
+        #header-btn {
+            width: 80px;
+            height: 30px;
+            transition: width 0.5s, height 0.5s, transform 0.5s;
+        }
+
+        #header-btn:hover {
+            width: 100px;
+            height: 50px;
+            transform: rotate(360deg);
+        }
+
+        #intouch {
+            font-size: 20px;
+            color: #adf7f9;
+            animation: intouch 5s ease-out infinite normal;
+        }
+
+        .main-banner {
+            height: 100vh;
+        }
+
+        .nav-img {
+            width: 25%;
+        }
+
+        .footer-logo {
+            width: 50%;
+        }
+
+        .masterpln {
+            width: 100%;
+        }
+
+        .ftrlogo {
+            width: 15%;
+        }
+
+        .masterpln {
+            width: 70%;
+        }
+
+        @media only screen and (max-width:760px) {
+
+            .logo-w {
+                width: 70% !important;
+            }
+
+            .disp-tab {
+                display: block;
+                overflow-x: auto
+            }
+
+            .nav-img {
+                width: 75%;
+            }
+
+            .main-banner {
+                height: 50vh;
+            }
+
+            /* .m-image {
+                filter: blur(10px) !important;
+            } */
+
+            .g-img {
+                height: 150px;
+                object-fit: cover;
+            }
+
+            .fs-ame {
+                font-size: 10px;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+
+            .ame-img {
+                width: 50%;
+            }
+
+            #intouch {
+                overflow-x: hidden !important;
+                font-size: 25px;
+            }
+
+            .footer-logo {
+                width: 100%;
+            }
+
+            .masterpln {
+                width: 100%;
+            }
+
+            .ftrlogo {
+                width: 30%;
+            }
+
+        }
+
+
+        .fs-ame {
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .rightbtn {
+            background-color: #eeb34b;
+            border-color: aquamarine;
+            color: #fff !important;
+            position: fixed;
+            padding: 1%;
+            right: -50px;
+            top: 65%;
+            z-index: 1;
+            transform: rotate(-90deg);
+            font-size: 15px;
+        }
+
+        .mobile-icons {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            z-index: 5;
+            text-align: center;
+            padding: 0 0 0 0;
+            text-align: center;
+        }
+
+        .ul-sec {
+            background-color: #81afff;
+            background: linear-gradient(-45deg, #1e417d, #81afff, #1e417d, #81afff);
+            background-size: 400% 400%;
+            -webkit-animation: Gradient 3s ease infinite;
+            -moz-animation: Gradient 3s ease infinite;
+            animation: Gradient 3s ease infinite;
+            color: white;
+            border: 4px solid white;
+            border-style: dotted;
+            padding: 2%;
+        }
+
+        .fp-name {
+            text-shadow: 0px 3px 6px #1e417d;
+            font-size: 16px;
+            padding: 2% 0%;
+            text-align: center;
+            font-weight: 500;
+            background-color: #81afff;
+            background: linear-gradient(-45deg, #1e417d, #81afff, #1e417d, #81afff);
+            background-size: 400% 400%;
+            -webkit-animation: Gradient 3s ease infinite;
+            -moz-animation: Gradient 3s ease infinite;
+            animation: Gradient 3s ease infinite;
+            color: white;
+            border: none;
+        }
+
+        @keyframes Gradient {
+            0% {
+                background-position: 0 50%
+            }
+
+            50% {
+                background-position: 100% 50%
+            }
+
+            100% {
+                background-position: 0 50%
+            }
+        }
+
+
+        .g-img {
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .form-w {
+            margin-top: 4%;
+            width: 37%;
+
+            left: 2% !important;
+            top: 50%;
+            transform: translate(0%, -50%);
+            align-items: center;
+            padding: 30px;
+            border-radius: 5%;
+            padding: 0%;
+        }
+
+
+        ul {
+            list-style: none;
+        }
+
+        h2 {
+            color: #1e417d;
+        }
+
+        .nav-link:hover {
+            border-bottom: 1.5px solid #35f462;
+        }
+
+        .row {
+            --bs-gutter-x: 0 !important;
+        }
+
+        .px-2 {
+            padding-left: 0px !important;
+        }
+
+        .ps-2 {
+            padding-left: 0px !important;
+
+        }
+
+
+        .sitvisite {
+            background-color: rgba(0, 0, 0, .7);
+            color: white;
+            font-size: 16px;
+            padding: 2% 0%;
+            margin: 0% 4%;
+            text-align: center;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+
+        .or {
+            margin-bottom: 0px;
+        }
+
+        .getcall {
+            text-shadow: 0px 3px 6px #1e417d;
+            font-size: 16px;
+            padding: 2% 0%;
+            text-align: center;
+            font-weight: 500;
+            background-color: #81afff;
+            background: linear-gradient(-45deg, #1e417d, #81afff, #1e417d, #81afff);
+            margin: 0% 4%;
+            color: white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        @media only screen and (min-width:760px) {
+            .side-form {
+                height: 100vh;
+                border-left: 1px solid black;
+            }
+
+            #header-form {
+                position: fixed;
+                height: 100vh;
+                top: 0vh;
+                overflow-x: hidden !important;
+            }
+
+            #intouch {
+                overflow-x: hidden !important;
+            }
+
+            .side-form {
+                margin-top: 30%;
+            }
+
+            @keyframes intouch {
+                0% {
+                    transform: scale(1.3);
+                }
+
+                25% {
+                    transform: scale(2);
+                }
+
+                50% {
+                    transform: scale(1.3);
+                }
+
+                100% {
+                    transform: scale(1.3);
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!--navbar-->
+    <!--navbar-->
+    <div style="position:fixed ;width:100vw;z-index: 2;">
+        <nav class="navbar navbar-expand-lg navbar-light py-0 bg-light">
+            <div class="container px-0">
+                <div class="nav-img">
+                    <img src="assets/images/logo.png" alt="Prestige Somerville logo" title="Prestige Somerville logo"
+                        class="logo py-1 logo-w">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse w-50" id="navbarSupportedContent">
+                    <ul
+                        class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-between w-100 ms-4 ms-md-0 fw-bold">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#about">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#Amenities">Amenities</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#masterplan">Master plan</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#location">Location</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#gallery">Gallery</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <div class="row" style="padding:0% !important;margin:0% !important ; width: 100% !important;">
+        <div class="col-md-9 col-12 px-0 mx-0" id="home">
+            <!--main banner-->
+            <div class="banner w-100 position-relative">
+                <picture>
+                    <source media="(min-width:768px)" srcset="assets\images\bannerimage.png">
+                    <source media="(max-width:768px)" srcset="assets\images\bannerimage.png">
+                    <img data-src="assets\images\bannerimage.png" class="img-responsive w-100 lazy pt-5"
+                        alt="USR SUSOWDHA banner" title="USR SUSOWDHA banner">
+                </picture>
+
+                <!-- <img src="assets\images\banner1.jpg" alt="" class="w-100 main-banner"> -->
+                <div class="pb-4 text-center position-absolute d-none d-md-block form-w bg-light">
+                    <p class="cmco fs-5">NEW LAUNCH</p>
+                    <p class="fs-4" style="line-height:20px ;">USR SUSOWDHA</p>
+                    <p class="fs-5 cmco" style="line-height:20px ;">At Anjanapura vicinity off Kanakapura road &
+                        Bannerghatta road
+                    </p>
+                    <p>By USR Builders and Developers Ltd</p>
+                    <ul style="padding-left: 0px;" class="ul-sec">
+                        <li>- Land Area: 32670 SFT </li>
+
+
+                        <!-- <li>- Towers : 09 </li> -->
+
+
+
+
+
+
+                        <li>- Units: 56 Flats
+                        </li>
+
+                        <li>- Floors : G + 3
+                        </li>
+
+
+                        <li>Premium 2 & 3 BHK
+                        </li>
+
+
+
+                    </ul>
+                    <p style="line-height:15px ; font-size: 18px;"> Price Starts from <strong>₹ 60.05 Lacs*
+                            Onwards</strong>
+                    </p>
+
+                    </p>
+                    <!-- <p class="fs-3 cmco">Onrequest</p> -->
+                    <button class="px-3 cmcob rounded-2 text-light border-0" type="button" data-bs-toggle="modal"
+                        data-bs-target="#enquire_form_popup">5999/-* per Sq.Ft</button>
+                </div>
+            </div>
+            <!--NEW LAUNCH-->
+            <div class="py-4 text-center d-md-none d-block bg-light">
+                <p class="cmco fs-5">NEW LAUNCH</p>
+                <p class="fs-4" style="line-height:20px ;">USR SUSOWDHA</p>
+                <p class="fs-5 ">AT Anjanapura vicinity off Kanankpura Road & Banhherghatta
+                    Road.
+                </p>
+                <p>By USR Builders and Developers Ltd.</p>
+                <ul style="padding-left: 0px;" class="ul-sec">
+                    <li>- Land Area: 32670 SFT </li>
+
+
+                    <li>- Units: 56 Flats
+                    </li>
+
+                    <li>- Floors : G + 3
+                    </li>
+
+
+                    <li>Premium 2 & 3 BHK
+                    </li>
+
+
+                </ul>
+                <p style="line-height:15px ;">Price Starts from <strong>₹ 60.05 Lacs*
+                        Onwards</strong>
+                </p>
+
+                <button class="px-3 cmcob rounded-2 text-light border-0" type="button" data-bs-toggle="modal"
+                    data-bs-target="#enquire_form_popup">5999/-* per Sq.Ft</button>
+            </div>
+            <div class="container-fluid px-2">
+                <div class="row py-4 text-dark ps-2 ps-md-0" id="about">
+                    <div class="row py-4 text-dark ps-2 ps-md-0" id="about">
+                        <div class="col-1 d-flex align-items-center justify-content-center grey rounded">
+                            <div style=" transform: rotate(-90deg);">
+                                <h2 style=" white-space: nowrap;" class="grey pt-2 pt-md-0">Privacy Policy</h2>
+                            </div>
+                        </div>
+                        <div class="col-11 rounded-start commonbg1" style="text-align:justify ;">
+                            <h2 class="cmco px-4 fs-3 "> PRIVACY POLICY &amp; TERM OF USES</h2>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;">USR SUSOWDHA a
+                                Real Estate
+                                Regulatory Authority ("RERA") Registered Agent bearing RERA No:
+                                <strong>RERA: PRM/KA/RERA/1251/310/PR/020823/006105.</strong>
+                            </p>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;"><strong>INTERPRETATIONS AND
+                                    DEFINITIONS</strong></p>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;">“<strong>Data</strong>” shall
+                                mean personal information, including sensitive personal information
+                                and
+                                special category personal data (as defined under Data Protection Laws) about you, which
+                                we collect, receive,
+                                or
+                                otherwise process in connection with your use of our website and/or the Platform.</p>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;">“<strong>Data Protection
+                                    Laws</strong>” shall mean any applicable law for the time being in force
+                                relating to the processing of Data.</p>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;">“<strong>Service
+                                    Providers</strong>” includes entities which provide services to and to whom we
+                                may
+                                disclose your Data for a specific purpose pursuant to a written contract.</p>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;">“<strong>Elegance
+                                    Enterprises</strong>” shall mean Elegance Enterprises, and its subsidiaries,
+                                affiliates and associate companies.</p>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;">“<strong>User or You</strong>”
+                                shall mean the natural person who accesses our website/pages or
+                                Platform.</p>
+                            <h4 class="px-md-4 py-2 px-4 " style="text-align:justify ;"><strong>WEBSITE CONTENT
+                                    OVERVIEW:</strong></h4>
+                            <h4 class="px-md-4 py-2 px-4 " style="text-align:justify ;">The contents of this landing
+                                page, containing details of properties, property photos, costs, and
+                                availability,
+                                are provided for informational and illustrative purposes only. This information is
+                                subject to change at any
+                                time. Users are hereby advised that the actual properties may differ from what is shown
+                                in photos and cost
+                                on
+                                the website and pages, and as such, no claims shall be entertained based on such
+                                representations.</h4>
+
+                            <h4 class="px-md-4 py-2 px-4 " style="text-align:justify ;"><strong>Uses of Developer
+                                    Information:</strong></h4>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;">All images, cost descriptions,
+                                logos, and other project materials featured on this landing page are presented
+                                in
+                                accordance with the respective project developer or its licensors. We are in legal
+                                agreements and
+                                established
+                                legal relationships with the said respective developer, thereby possessing the authority
+                                to advertise,
+                                market
+                                for sale, and generate leads for the respective project.</p>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;"><strong>TYPES OF DATA
+                                    COLLECTED</strong></p>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;"><strong>PERSONAL DATA</strong>
+                            </p>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;">While visiting to this website,
+                                We may ask You to provide Us with certain personally identifiable information
+                                that can be used to contact or identify You. Personally identifiable information may
+                                include, but is not
+                                limited
+                                to:</p>
+                            <ul>
+                                <li>Email address</li>
+                                <li>First name and last name</li>
+                                <li>Phone number</li>
+                                <li>Address, State, Province, ZIP/Postal code, City</li>
+                            </ul>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;"></p>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;"><strong>We may use Personal Data
+                                    for the following purposes:</strong></p>
+                            <ul>
+                                <li><strong>To provide and maintain our Service</strong>, including to monitor the usage
+                                    of our Service.
+                                </li>
+                                <li><strong>To contact You:</strong>&nbsp;To contact You by email, telephone calls, SMS,
+                                    or other equivalent
+                                    forms of electronic communication.</li>
+                                <li><strong>To provide Information related to the property’s sale, purchase
+                                        etc.</strong>&nbsp;with,
+                                    special offers and general information about properties, real estate services which
+                                    we offer that are
+                                    similar to those that you have already purchased or enquired about.&nbsp;</li>
+                                <li><strong>To manage Your requests:</strong>&nbsp;To attend and manage Your requests to
+                                    Us.</li>
+                            </ul>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;"></p>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;"><strong>We may share Your
+                                    personal information in the following situations:</strong></p>
+                            <ul>
+                                <li><strong>With Affiliates:</strong>&nbsp;We may share Your information with Our
+                                    affiliates, in which case
+                                    we
+                                    will require those affiliates to honor this Privacy Policy. Affiliates include Our
+                                    associates and any
+                                    other
+                                    subsidiaries, that We control or that are under common control with Us.</li>
+                                <li><strong>With Authorized Developers</strong>: We may disclose Your personal
+                                    information with Real Estate
+                                    Regulatory Authority (RERA) registered Developers for further processing as
+                                    necessary.&nbsp;</li>
+                                <li><strong>With Your consent</strong>: We may disclose Your personal information for
+                                    any other purpose with
+                                    Your consent.</li>
+                            </ul>
+                            <h3 class="px-md-4 py-2 px-4 " style="text-align:justify ;"><strong>RETENTION OF YOUR
+                                    PERSONAL DATA</strong></h3>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;">We shall retain Your Personal
+                                Data only for as long as is necessary for the purposes set out in this Privacy
+                                Policy. We will retain and use Your Personal Data to the extent necessary to comply with
+                                our legal
+                                obligations
+                                (for example, if we are required to retain your data to comply with applicable
+                                laws).&nbsp;</p>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;"></p>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;"><strong>DISCLOSURE OF YOUR
+                                    PERSONAL DATA</strong></p>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;"><strong>USER'S CONSENT</strong>
+                            </p>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;">By using the Website/Landing Page
+                                and/or by providing information to Us through this Website/Landing Page,
+                                the
+                                User consents to the collection and use of the information disclosed by the User on the
+                                Website in
+                                accordance
+                                with this Privacy Policy.&nbsp;</p>
+
+                            <h3 class="px-md-4 py-2 px-4 " style="text-align:justify ;"><strong>LAW ENFORCEMENT</strong>
+                            </h3>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;">Under certain circumstances, the
+                                We may be required to disclose Your Personal Data if required to do so by
+                                law or
+                                in response to valid requests by public authorities (e.g. a court or a government
+                                agency).</p>
+
+                            <h3 class="px-md-4 py-2 px-4 " style="text-align:justify ;"><strong>OTHER LEGAL
+                                    REQUIREMENTS</strong></h3>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;">The Company may disclose Your
+                                Personal Data in the good faith belief that such action is necessary to:</p>
+                            <ul>
+                                <li>Comply with a legal obligation.</li>
+                                <li>Prevent or investigate possible wrongdoing in connection with the Service.</li>
+                                <li>Protect the personal safety of Users of the Service or the public.</li>
+                                <li>Protect against legal liability.</li>
+                            </ul>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;"></p>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;"><strong>SECURITY OF YOUR PERSONAL
+                                    DATA</strong></p>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;">The security of Your Personal
+                                Data is important to Us but remember that no method of transmission over the
+                                Internet, or method of electronic storage is 100% secure. While We strive to use
+                                commercially acceptable
+                                means
+                                to protect Your Personal Data, we cannot guarantee its absolute security.</p>
+
+                            <h3 class="px-md-4 py-2 px-4 " style="text-align:justify ;"><strong>CHILDREN'S
+                                    PRIVACY</strong></h3>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;">Our Service does not address
+                                anyone under the age of 18. We do not knowingly collect personally identifiable
+                                information from anyone under the age of 18. If You are a parent or guardian and You are
+                                aware that Your
+                                child
+                                has provided Us with Personal Data, please contact Us. If We become aware that We have
+                                collected Personal
+                                Data
+                                from anyone under the age of 18 without verification of parental consent, we take steps
+                                to remove that
+                                information from Our servers.</p>
+
+                            <h3 class="px-md-4 py-2 px-4 " style="text-align:justify ;"><strong>CHANGES TO THIS PRIVACY
+                                    POLICY</strong></h3>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;">We may update Our Privacy Policy
+                                from time to time. We will notify You of any changes by posting the new
+                                Privacy
+                                Policy on this page. You are advised to review this Privacy Policy periodically for any
+                                changes. Changes to
+                                this
+                                Privacy Policy are effective when they are posted on this page.</p>
+
+                            <h3 class="px-md-4 py-2 px-4 " style="text-align:justify ;"><strong>CONTACT US</strong></h3>
+                            <p class="px-md-4 py-2 px-4 " style="text-align:justify ;">To request to review, update, or
+                                delete your personal information or to otherwise reach us, please submit a
+                                request by e-mailing us at <a
+                                    href="mailto:aqib@imsolutions.mobi">aqib@imsolutions.mobi</a></p>
+
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+        <div class="col-md-3   side-form">
+
+
+
+            <form id="header-form" class="text-center mb-lg-5 commonbg2"
+                style="border-left: 1px solid black; background-color: lightgray;">
+                <div>
+
+                </div>
+                <div class="sitvisite" type="button" data-bs-toggle="modal" data-bs-target="#enquire_form_popup">
+                    Book Site Visit
+                </div>
+                <p class="or">
+                    Or
+                </p>
+
+                <div class="getcall" type="button" data-bs-toggle="modal" data-bs-target="#enquire_form_popup">
+                    <i class="fa-solid fa-phone pe-4"></i> Get a Call Back Now
+                </div>
+
+
+                <h4 class="text-center py-4" id="intouch" style="color: #3c7006;overflow-x: hidden !important;">ENQUIRE
+                    NOW</h4>
+                <div id="note1"></div>
+                <input type="text" placeholder="NAME" class="my-2 p-2 border-0 border-bottom mx-3" style="width:90% ;"
+                    name="name">
+                <input type="text" placeholder="PHONE NUMBER" class="my-2 p-2 border-0 border-bottom mx-3"
+                    style="width:90% ;" name="phone">
+                <input type="email" placeholder="EMAIL" class="my-2 p-2 border-0 border-bottom mx-3" style="width:90% ;"
+                    name="email">
+                <textarea id="" cols="23" rows="2" name="message" placeholder="MESSAGE"
+                    class="my-2 p-2 border-0 border-bottom mx-3" style="width:90% ;"></textarea>
+
+                <button type="submit" value="Submit" id="header-btn"
+                    class="text-white border-0 cmcob rounded-2">Submit</button>
+            </form>
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <!--popoupform-->
+    <!-- Modal -->
+    <div class="modal fade" id="enquire_form_popup" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" id="popupform">
+                <div class="modal-header cmcob text">
+                    <img src="assets\images\project-footerlogo.svg" alt="" class="w-25 bg-white">
+                    <button type="button" class="btn-close bg-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class=" pb-4" style="width:100%;">
+                        <form id="popup-form">
+
+                            <div id="note3"></div>
+
+                            <div class="text-center px-2">
+                                <input type="text" class="form-control mt-3 py-2" id="name3" name="name"
+                                    placeholder="Name">
+
+                                <input type="text" class="form-control mt-3 py-2" id="mobile3" name="phone"
+                                    placeholder="Mobile">
+
+                                <input type="email" class="form-control mt-3 py-2" id="email3" name="email"
+                                    placeholder="Email">
+                                <textarea name="message" id="message3" cols="30" rows="2" placeholder="Message"
+                                    class="form-control mt-3 py-2"></textarea>
+                                <button type="submit" value="Submit" id="popup-button"
+                                    class="btn btn-light mt-3 w-100 commonbg1"
+                                    style="background-color: #e5941f;opacity: .8;">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet"
+        media="print" onload="this.media='all'">
+    <!--jquery cdn-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.0/swiper-bundle.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.0/swiper-bundle.min.js"
+        onload="swiperinit()"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css"
+        integrity="sha512-Woz+DqWYJ51bpVk5Fv0yES/edIMXjj3Ynda+KWTIkGoynAMHrqTcDUQltbipuiaD5ymEo9520lyoVOo9jCQOCA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"
+        integrity="sha512-k2GFCTbp9rQU412BStrcD/rlwv1PYec9SNrkbQlo6RZCf75l6KcC3UwDY8H5n5hl4v77IDtIPwOk9Dqjs/mMBQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--swiper style-->
+    <style media="all" type="text/css" media="none" onload="if(media!='all')media='all'">
+        .swiper {
+            width: 100%;
+            height: 100%
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            object-fit: cover
+        }
+
+        .swbtn1 {
+            top: 90% !important
+        }
+
+        .swbtn2 {
+            top: 94% !important
+        }
+
+        .sw-pr {
+            color: #fff;
+            top: 30% !important;
+            margin-left: 0 !important
+        }
+
+        .sw-nx {
+            color: #fff;
+            top: 30% !important;
+            margin-left: 100% !important
+        }
+
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            color: white !important;
+        }
+
+        .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+        .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+            margin-top: 5% !important;
+        }
+
+        .swiper-button-next:after,
+        .swiper-button-prev:after {
+            font-size: 1.5rem !important
+        }
+
+        .swiper-button-next,
+        .swiper-rtl .swiper-button-prev {
+            right: 0 !important;
+            width: 2%
+        }
+
+        .swiper-button-prev,
+        .swiper-rtl .swiper-button-next {
+            left: 0 !important;
+            width: 2%
+        }
+
+        .swiper-pagination-bullet {
+            border-radius: 0 !important;
+            width: .7rem;
+            height: .2rem;
+            background-color: black !important;
+
+        }
+    </style>
+    <script>
+        function swiperinit() {
+            if (window.innerWidth < 760) {
+                var swiper = new Swiper("#swiper_amenities", {
+                    slidesPerView: 2,
+                    spaceBetween: 30,
+                    loop: true,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
+            } else {
+                var swiper = new Swiper("#swiper_amenities", {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                    loop: false,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
+            }
+        }
+        /*form_popup*/
+        // setTimeout(function () {
+        //     $(function () {
+        //         $("#enquire_form_popup").modal('show');
+        //     });
+        // }, 3000);
+
+
+
+
+
+        function submitForm(formId, buttonId, noteId, redirectUrl) {
+            $(formId).submit(function (event) {
+                event.preventDefault();
+                $(buttonId).text("Please Wait");
+                $(buttonId).attr('disabled', 'disabled');
+
+                // Create an object to hold form data
+                var formData = {
+                    name: $(formId + ' [name="name"]').val(),
+                    email: $(formId + ' [name="email"]').val(),
+                    phone: $(formId + ' [name="phone"]').val(),
+                    message: $(formId + ' [name="message"]').val(),
+                    subject: "Bengal Lamps Bangalore" // Change this to your desired subject value
+                };
+
+                $.ajax({
+                    type: "POST",
+                    url: "https://us-central1-email-js-1a09b.cloudfunctions.net/emailjs/submit-form",
+                    data: formData,
+                    success: function (msg) {
+                        $(buttonId).removeAttr('disabled');
+                        $(buttonId).text("Submit");
+                        if (msg === 'Email sent successfully') {
+                            result = '<p style="color:green; font-weight: 600;font-size: 18px;width:100%">Email Sent Successfully!</p>';
+                            $(noteId).delay(20000).fadeOut();
+                            $(formId)[0].reset();
+                            // if (redirectUrl) {
+                            //     window.location.href = redirectUrl;
+                            // }
+                        } else {
+                            result = msg;
+                        }
+                        $(noteId).html(result);
+                    },
+                    error: function () {
+                        $(buttonId).removeAttr('disabled');
+                        $(buttonId).text("Submit");
+                        $(noteId).html('<p style="color:red; font-weight: 600;font-size: 18px;width:100%">Error sending email!</p>');
+                    }
+                });
+                return false;
+            });
+        }
+
+        $(document).ready(function () {
+            submitForm("#header-form", "#header-btn", "#note1", "thankyou.html");
+            // submitForm("#footer-form", "#footer-button", "#note", "thankyou.html");
+            submitForm("#popup-form", "#popup-button", "#note3", "thankyou.html");
+        });
+
+
+
+
+
+
+
+
+
+
+
+            // $("#header-form").submit(function () {
+            //     $("#header-btn").val("Please Wait");
+            //     $('#header-btn').attr('disabled', 'disabled');
+            //     var str = $(this).serialize();
+            //     $.ajax({
+            //         type: "POST",
+            //         url: "contact-process.php",
+            //         data: str,
+            //         success: function (msg) {
+            //             $('#header-btn').removeAttr('disabled');
+            //             $("#header-btn").val("Submit");
+            //             if (msg == 'OK') {
+            //                 result = '<p style="color:green; font-weight: 600;font-size: 18px;width:100%">Email Sent Successfully!<\/p>';
+            //                 $('#note1').delay(20000).fadeOut();
+            //                 $('#header-form')[0].reset();
+            //                 window.location.href = "thankyou.html";
+            //             } else {
+            //                 result = msg;
+            //             }
+            //             $('#note1').html(result);
+            //         }
+            //     });
+            //     return false;
+            // });
+
+
+
+            //  $("#popup-form").submit(function () {
+            //    $("#popup-btn").text("Please Wait");
+            //     $('#popup-btn').attr('disabled', 'disabled');
+            //     var str = $(this).serialize();
+            //     $.ajax({
+            //         type: "POST",
+            //         url: "contact-process.php",
+            //         data: str,
+            //         success: function (msg) {
+            //             $('#popup-btn').removeAttr('disabled');
+            //             $("#popup-btn").text("Submit");
+            //             if (msg == 'OK') {
+            //                 result = '<p style="color:green; font-weight: 600;font-size: 18px;width:100%">Email Sent Successfully!<\/p>';
+            //                 $('#popup-note').delay(20000).fadeOut();
+            //                 $('#popup-form')[0].reset();
+            //                 window.location.href = "thankyou.html";
+            //             } else {
+            //                 result = msg;
+            //             }
+            //             $('#popup-note').html(result);
+            //         }
+            //     });
+            //     return false;
+            // });
+
+
+    </script>
+</body>
+
+</html>
